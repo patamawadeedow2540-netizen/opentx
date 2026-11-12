@@ -16,7 +16,8 @@ option(STICK_DEAD_ZONE "Enable sticks dead zone" YES)
 
 if(PCB STREQUAL I6X)
   set(PWR_BUTTON "SWITCH" CACHE STRING "Pwr button type (PRESS/SWITCH)")
-  set(SPLASH "OFF")
+  set(SPLASH "DEFAULT")
+
   set(CPU_TYPE STM32F0)
   set(CPU_TYPE_FULL STM32F072)  # for size report
   set(LINKER_SCRIPT targets/flysky/STM32F072VB_FLASH.ld)
