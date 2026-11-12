@@ -63,7 +63,7 @@ jobs:
 
   build:
     name: build-${{ matrix.suffix }}
-    needs: [check, tests]
+    needs: [check]
     if: needs.check.outputs.should_build == 'true'
     runs-on: ubuntu-24.04
     strategy:
