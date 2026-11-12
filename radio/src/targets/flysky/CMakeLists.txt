@@ -3,7 +3,7 @@ option(PCBI6X_ELRS "Enable ExpressLRS configuration tool" NO) # ~4.0kB
 option(CRSF_EXTENDED_TYPES "Enable Support for CRSF STRING and FLOAT types" NO) # ~0.2kB
 option(PCBI6X_HELLO "Enable Hello World example tool" NO)
 option(PCBI6X_INAV "Enable INAV Lite telemetry screen" NO) # ~2kB
-option(USB_MSD "Enable USB mass storage mode" YES) # 3.2kB
+option(USB_MSD "Enable USB mass storage mode" NO) # 3.2kB
 option(AFHDS2A_LQI_CH "Send RSSI at channel 1-17" OFF)
 option(DFPLAYER "Enables DFPlayer on AUX3 TX" NO) # ~1.7kB
 option(FAKE_RSSI "Enables converting TRSS to RSSI data for receivers not sending RSSI" NO)
